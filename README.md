@@ -1,47 +1,82 @@
-# TaskFlow – Product Documentation
+# TaskFlow Product Documentation
 
-**Portfolio project | Self-initiated technical writing sample**
+Welcome to the TaskFlow Product Documentation repository.
 
-TaskFlow is a fictional SaaS task and project management application created for this documentation portfolio. It helps teams organize projects, assign work, track task status, and collaborate.
+This repository contains user guides, administrator guides, API references, troubleshooting information, and release notes for the TaskFlow platform.
 
-> **Important:** TaskFlow is a simulated product. The workflows, API endpoints, data, and screenshots described in this repository are illustrative and are not connected to a real service.
+## Overview
 
-## Documentation contents
+TaskFlow is a project and task management platform that helps teams plan, organize, track, and collaborate on work efficiently.
 
-| Area | What's included |
-|---|---|
-| Getting started | Product overview, account setup, first steps |
-| User guides | Projects, tasks, comments, and collaboration |
-| Administration | Team members, roles, and permissions |
-| API documentation | REST API overview, authentication, projects, tasks |
-| Troubleshooting | Common issues and suggested resolutions |
-| Release notes | Sample version history |
+The documentation is organized to support multiple audiences:
 
-## Intended audience
+- End Users
+- Project Managers
+- Team Administrators
+- Developers
+- Technical Support Teams
 
-- New users learning TaskFlow
-- Team administrators managing access
-- Developers integrating with the sample API
+## Documentation Structure
 
-## Documentation conventions
+```text
+docs/
+├── getting-started/
+├── user-guides/
+├── admin-guides/
+├── api-documentation/
+├── troubleshooting/
+└── release-notes/
+```
 
-- **Bold** indicates UI labels or important terms.
-- `Code font` indicates API fields, commands, and values.
-- Examples use fictional data.
-- API examples use `https://api.taskflow.example.com/v1` as a reserved example domain.
+## Getting Started
 
-## Suggested reading order
+New users should begin with the following guides:
 
-1. [Product overview](getting-started/introduction.md)
-2. [Quick start](getting-started/quick-start.md)
-3. [Create a project](user-guides/create-project.md)
-4. [Manage tasks](user-guides/manage-tasks.md)
-5. [API overview](api-documentation/api-overview.md)
+1. Introduction
+2. Access and Sign-In
+3. Quick Start Guide
 
-## Technology and authoring samples
+## User Documentation
 
-This portfolio demonstrates Markdown authoring, information architecture, task-based procedures, REST API concepts, JSON examples, troubleshooting content, and release-note writing.
+User documentation covers:
 
-## Feedback
+- Creating Projects
+- Managing Tasks
+- Collaboration Features
+- Comments and Discussions
+- Task Tracking
 
-For this portfolio sample, create an issue in the GitHub repository describing the documentation page and suggested improvement.
+## Administrator Documentation
+
+Administrator documentation includes:
+
+- User Management
+- Team Administration
+- Roles and Permissions
+- Access Control
+
+## API Documentation
+
+Developers can find:
+
+- API Overview
+- Authentication
+- Projects API
+- Tasks API
+- OpenAPI Specification
+
+## Troubleshooting
+
+The troubleshooting section provides solutions for common issues and operational problems.
+
+## Release Notes
+
+Release notes document product updates, enhancements, bug fixes, and new features.
+
+## Contributing
+
+Please review the CONTRIBUTING.md file before submitting documentation updates.
+
+## License
+
+This project is distributed under the terms described in the LICENSE file.
