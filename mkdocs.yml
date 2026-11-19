@@ -1,0 +1,37 @@
+site_name: TaskFlow Documentation
+site_description: Official TaskFlow Product Documentation
+site_author: Pratik Chougule
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+      - Introduction: getting-started/introduction.md
+      - Access and Sign-In: getting-started/access-and-sign-in.md
+      - Quick Start Guide: getting-started/quick-start.md
+
+  - User Guides:
+      - Create Project: user-guides/create-project.md
+      - Manage Tasks: user-guides/manage-tasks.md
+      - Comments and Collaboration: user-guides/comments-and-collaboration.md
+
+  - Administrator Guides:
+      - Manage Members: admin-guides/manage-members.md
+      - Roles and Permissions: admin-guides/roles-and-permissions.md
+
+  - API Documentation:
+      - API Overview: api-documentation/api-overview.md
+      - Authentication: api-documentation/authentication.md
+      - Projects API: api-documentation/projects-api.md
+      - Tasks API: api-documentation/tasks-api.md
+
+  - Troubleshooting:
+      - Common Errors: troubleshooting/common-errors.md
+
+  - Release Notes:
+      - Release Notes: release-notes/release-notes.md
+      - Historical Releases: release-notes/historical-releases.md
+      - Versions Retiring in 2026: release-notes/Versions-retiring-2026.md
